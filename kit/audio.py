@@ -31,8 +31,7 @@ IR=reverb_ir()
 mutes=[]
 for e in TL['vfx']:
     k=e[0]
-    if k=='radio': continue  # vietato dal titolare: non si capisce
-    if False:
+    if k=='radio':
         a,b=e[1],e[2]; seg=v[int(a*SR):int(b*SR)]
         bb,aa=sg.butter(4,[400,3200],'band',fs=SR); y=sg.lfilter(bb,aa,seg)
         y=np.tanh(y*6)/3.2; replace(a,b,y*1.15)
