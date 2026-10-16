@@ -10,7 +10,7 @@ Il titolare (Mr Sawa) non deve fare niente. Se qualcosa va storto, programma com
 - Repo: `Savino-git/shakraweb-reels` (pubblico). Video in `v/AAAA-MM-GG-slot-slug.mp4`, link pubblico:
   `https://raw.githubusercontent.com/Savino-git/shakraweb-reels/main/v/<file>.mp4` (Metricool lo copia sui suoi server: funziona, testato).
 - WhatsApp per le CTA: **331 588 7685** (nel testo per la voce scriverlo in lettere: "tre tre uno, cinque otto otto, sette sei otto cinque").
-- Logo: `kit/web/logo.png` (già ritagliato con alpha). Mai aggiungere ombre: solo il suo alone celeste originale, mai tagliato di netto.
+- Logo: `kit/web/logo.png` (ritagliato con alpha, con l'icona S PIENA NERA all'interno come l'originale: corretto il 16/10, non usare versioni con la S trasparente). Mai aggiungere ombre: solo il suo alone celeste originale, mai tagliato di netto.
 - Domini già consentiti nella rete: storage.googleapis.com, api.elevenlabs.io, github (git). Higgsfield NON va usato.
 
 ## 1. Scegliere i 3 argomenti (varietà obbligatoria)
