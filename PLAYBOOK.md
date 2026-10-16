@@ -32,6 +32,7 @@ Per ogni testo: `creative_generate_speech` (prompt=testo, model_id=eleven_v4, vo
 
 ## 4. Montaggio (skill motion-graphic-voce-dinamico)
 Segui la skill **motion-graphic-voce-dinamico** alla lettera (audio prima, poi tempi; trascrizione whisper; effetti voce; SFX sintetizzati; musica melodica non troppo bassa; scene 3D; headline parola per parola; controllo finale).
+- **VIETATO l'effetto voce "grave/epica"** (`deep` in timeline.py: pitch giù + riverbero, es. "al mese BUTTATI", "non TELEFONATE"): al titolare non piace, sembra un robot e non si capisce. Tutti gli altri effetti voce vanno benissimo e restano: radio/telefono, eco sul brand, voce acuta, reverse swell, ducking a zero.
 Il codice già funzionante è in `kit/` (usato per il reel "gestionale AI"):
 - `kit/cut.py` (taglio pause) → poi `rubberband=tempo=1.2` → `voice_fast.wav`
 - `kit/run.mjs` (whisper con `npm pack sts-whisper-small` in `asr/`), `kit/words.py` (pulizia parole)

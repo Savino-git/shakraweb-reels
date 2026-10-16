@@ -35,7 +35,8 @@ for e in TL['vfx']:
         a,b=e[1],e[2]; seg=v[int(a*SR):int(b*SR)]
         bb,aa=sg.butter(4,[400,3200],'band',fs=SR); y=sg.lfilter(bb,aa,seg)
         y=np.tanh(y*6)/3.2; replace(a,b,y*1.15)
-    elif k in('deep','high'):
+    elif k=='deep': continue  # vietato dal titolare: voce grave tipo robot, non si capisce
+    elif k=='high':
         a,b,st=e[1],e[2],e[3]; replace(a,b,pitch(v[int(a*SR):int(b*SR)],st)*(1.15 if k=='deep' else 1))
         if k=='deep':  # epic layer reverb
             i=int(a*SR); y=sg.fftconvolve(v[i:int(b*SR)],IR)[:SR*2]; fx[i:i+len(y)]+=y*0.8
