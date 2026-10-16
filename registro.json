@@ -9,5 +9,38 @@
     "parola_cta": "AI",
     "file": "v/2026-10-16-gestionale-ai.mp4",
     "nota": "pubblicato a mano dal titolare"
+  },
+  {
+    "data": "2026-10-16",
+    "slot": "17:55 (recupero slot 12:30)",
+    "servizio": "assistente AI su WhatsApp",
+    "stile": "provocatorio",
+    "settore": "ristoranti/pizzerie",
+    "gancio": "Il telefono squilla in pieno servizio, e tu rispondi con le mani nella farina. Complimenti: sei il centralino più caro della città.",
+    "parola_cta": "ROBOT",
+    "file": "v/2026-10-16-s1-assistente-ai-whatsapp.mp4",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7465102&openWithPostUuid=-1648926628689589055"
+  },
+  {
+    "data": "2026-10-16",
+    "slot": "18:30",
+    "servizio": "prenotazioni online",
+    "stile": "calcoli concreti",
+    "settore": "parrucchieri/estetiste",
+    "gancio": "Facciamo due conti, parrucchiera: 40 minuti al giorno al telefono sono 20 ore al mese.",
+    "parola_cta": "AGENDA",
+    "file": "v/2026-10-16-s2-prenotazioni-online-parrucchieri.mp4",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7465102&openWithPostUuid=-498300704892368046"
+  },
+  {
+    "data": "2026-10-16",
+    "slot": "21:00",
+    "servizio": "configuratori 3D",
+    "stile": "prima/dopo",
+    "settore": "artigiani (cucine su misura)",
+    "gancio": "Prima: il cliente entra in negozio, sfoglia il catalogo, dice \"ci penso\", e non torna più.",
+    "parola_cta": "3D",
+    "file": "v/2026-10-16-s3-configuratore-3d-cucine.mp4",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7465102&openWithPostUuid=6813738924544051130"
   }
 ]

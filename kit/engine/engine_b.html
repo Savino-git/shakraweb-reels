@@ -1,0 +1,112 @@
+
+const gScene=G.map(g=>{let k=0;for(let i=0;i<SC.length;i++)if(g[0]>=SC[i].w0)k=i;return k});
+const gPal=G.map((g,gi)=>{const s=gScene[gi];const idx=G.slice(0,gi).filter((_,j)=>gScene[j]===s).length;const l=SP[SC[s].name];return l[idx%l.length]});
+const gStart=gi=>gi===0?0:T(G[gi][0])-0.02;
+function curGroup(t){let g=0;for(let i=0;i<G.length;i++)if(t>=gStart(i))g=i;return g}
+function curScene(t){let s=0;for(let i=0;i<SC.length;i++)if(t>=SC[i].t0)s=i;return s}
+let lastActive=null;
+function render3D(name,t,box){
+  if(!S3[name])return;
+  for(const k in S3)S3[k].group.visible=k===name;
+  S3[name].update(t);ren.render(scene,cam);
+  const [cx,cy,sz]=box;ctx.drawImage(ren.domElement,cx-sz/2,cy-sz/2,sz,sz);
+}
+function drawLogo(t,t0,cx,cy,w){
+  const p=pop(t,t0,.45);if(p.a<=0)return;const h=w*logo.height/logo.width;const gl=1+.06*Math.exp(-((t%BEAT)/BEAT)*5);
+  withT(cx,cy,p.s,p.a,()=>{ctx.save();ctx.globalCompositeOperation='screen';const rg=ctx.createRadialGradient(cx,cy,0,cx,cy,w*.75*gl);
+    rg.addColorStop(0,'rgba(40,120,255,.45)');rg.addColorStop(1,'rgba(40,120,255,0)');ctx.fillStyle=rg;ctx.fillRect(cx-w,cy-w,w*2,w*2);ctx.restore();
+    ctx.drawImage(logo,cx-w/2,cy-h/2,w,h)})}
+const CI=TL.ctai;
+function ctaDraw(t,t0){
+  drawLogo(t,TL.logo!=null?-10:t0,540,lerp(1060,760,eInOut(prog(t,t0,.45))),lerp(700,470,eInOut(prog(t,t0,.45))));
+  const p=pop(t,t0+.05,.4);withT(540,1270,p.s,p.a,()=>{card(110,1040,860,470,{r:52});
+    ctx.beginPath();ctx.arc(210,1140,56,0,7);ctx.fillStyle='#25d366';ctx.fill();
+    ctx.strokeStyle='#fff';ctx.lineWidth=8;ctx.beginPath();ctx.arc(210,1137,28,0,7);ctx.stroke();ctx.beginPath();ctx.moveTo(190,1158);ctx.lineTo(180,1172);ctx.lineTo(198,1164);ctx.stroke();
+    txt('Scrivi',290,1130,{size:40,w:800,c:'#6b7185'});
+    ctx.font='900 50px Inter';const kw=ctx.measureText(TL.cta).width+50;
+    const sa=pop(t,T(CI+1),.3);withT(420+kw/2,1118,sa.s,sa.a,()=>{rr(420,1080,kw,70,18);ctx.fillStyle='#FFD60A';ctx.fill();txt(TL.cta,420+kw/2,1132,{size:50,w:900,al:'center'})});
+    const sw=prog(t,T(CI+3),.25);ctx.globalAlpha*=sw;txt('su WhatsApp',290,1180,{size:40,w:800,c:'#10131f'});ctx.globalAlpha=1*p.a;
+    const num='331 588 7685';const a=T(CI+5),b=T(CI+6),c=T(CI+7);const times=[a,a+.18,a+.36,0,b,b+.18,b+.36,0,c,c+.18,c+.36,c+.54];
+    ctx.font='900 104px Inter';ctx.letterSpacing='-3px';const totW=ctx.measureText(num).width;let x=540-totW/2;
+    for(let i=0;i<num.length;i++){const ch=num[i];const cw=ctx.measureText(ch).width;if(ch!==' '){const q=pop(t,times[i],.22);
+      withT(x+cw/2,1340,q.s,q.a,()=>{ctx.font='900 104px Inter';ctx.letterSpacing='-3px';ctx.fillStyle='#10131f';ctx.textAlign='left';ctx.fillText(ch,x,1375)});}x+=cw}
+    ctx.letterSpacing='0px';
+    const bb=pop(t,E(CI+7)+.1,.35);const pulse=1+.04*Math.sin(t*8);withT(540,1450,bb.s*pulse,bb.a,()=>pill('Scrivici ora',540,1450,{size:38,bg:'#25d366',c:'#fff'}))})}
+function sceneDraw(k,t){const n=SC[k].name;if(n==='cta')ctaDraw(t,SC[k].t0);else SCN[n](t,SC[k].t0)}
+
+// ---------- headline ----------
+const VFX=TL.vfx;
+function inRange(k,t){return VFX.filter(v=>v[0]===k&&t>=v[1]&&t<v[2]+.25)}
+function layoutGroup(gi){
+  const [a,b]=G[gi];const toks=[];for(let i=a;i<b;i++)toks.push({i,s:W[i][1].toUpperCase()});
+  let size=150;let lines;
+  for(;size>60;size-=6){ctx.font=`900 ${size}px Inter`;ctx.letterSpacing=`${-.035*size}px`;const sp=size*.38;
+    lines=[[]];let lw=0;let ok=true;
+    for(const tk of toks){tk.w=ctx.measureText(tk.s).width;if(tk.w>900){ok=false;break}
+      if(lines[lines.length-1].length&&lw+sp+tk.w>900){lines.push([]);lw=0}
+      lw+=(lines[lines.length-1].length?sp:0)+tk.w;lines[lines.length-1].push(tk)}
+    ctx.letterSpacing='0px';if(ok&&lines.length<=2)break}
+  const lh=size*1.04;const y0=410-(lines.length*lh)/2+size*.78;
+  lines.forEach((ln,li)=>{const sp=size*.38;const tw=ln.reduce((s,tk)=>s+tk.w,0)+sp*(ln.length-1);let x=540-tw/2;ln.forEach(tk=>{tk.x=x;tk.y=y0+li*lh;x+=tk.w+sp})});
+  return {toks,size}
+}
+const LAY=G.map((_,i)=>layoutGroup(i));
+function drawHeadline(t,gi,pal){
+  const {toks,size}=LAY[gi];const dark=DARK.has(pal);const stc=dark?'#2EE59D':'#FFD60A';
+  // effects
+  let ox=0,oy=0;
+  for(const v of VFX){if(v[0]==='deep'&&t>=v[1]&&t<v[1]+.45){const k=Math.exp(-(t-v[1])*7);ox+=(hash(t*30)-.5)*28*k;oy+=(hash(t*30+7)-.5)*20*k}}
+  const radio=inRange('radio',t).length>0;
+  const echo=VFX.filter(v=>v[0]==='echo'&&t>=v[1]&&t<v[1]+.8);
+  echo.forEach(v=>{for(let r=0;r<3;r++){const q=clamp((t-v[1]-r*.12)/.6);if(q<=0||q>=1)continue;ctx.beginPath();ctx.ellipse(540,410,200+500*q,90+220*q,0,0,7);ctx.strokeStyle=`rgba(255,255,255,${.5*(1-q)})`;ctx.lineWidth=6;ctx.stroke()}});
+  ctx.save();ctx.translate(ox,oy);
+  const passes=radio?[['rgba(255,40,90,.55)',-6],['rgba(40,220,255,.55)',6],[null,0]]:[[null,0]];
+  for(const pass of [0,1])for(const tk of toks){
+    const ts=T(tk.i)-.02;if(t<ts)continue;const p=prog(t,ts,.16);const s=lerp(1.35,1,eOut(p));
+    let by=0;const hi=VFX.find(v=>v[0]==='high'&&t>=v[1]&&t<v[2]+.3&&T(tk.i)>=v[1]-.05&&T(tk.i)<=v[2]);if(hi)by=-Math.abs(Math.sin((t-hi[1])*14))*26;
+    const isK=KW.has(tk.i);const kp=isK?prog(t,ts,.12):0;const stOn=isK&&t<ts+.7;const stA=isK?(t<ts+.7?1:clamp(1-(t-ts-.7)/.15)):0;
+    const cx=tk.x+tk.w/2, cy=tk.y-size*.36+by;
+    ctx.save();ctx.translate(cx,cy);ctx.scale(s,s);ctx.translate(-cx,-cy+by);
+    if(pass===0&&isK&&stA>0){const sp=eBack(kp);ctx.save();ctx.translate(cx,cy-by);ctx.rotate(-.025);ctx.scale(sp,sp);rr(-tk.w/2-14,-size*.56,tk.w+28,size*1.06,size*.2);ctx.fillStyle=stc;ctx.globalAlpha*=stA;ctx.fill();ctx.restore()}
+    ctx.font=`900 ${size}px Inter`;ctx.letterSpacing=`${-.035*size}px`;ctx.textAlign='left';
+    if(pass===0){ctx.letterSpacing='0px';ctx.restore();continue}
+    const col=isK?(stA>.5?'#10131f':stc):'#ffffff';
+    if(!isK||stA<=.5){ctx.save();ctx.shadowColor='rgba(0,0,0,.22)';ctx.shadowBlur=24;ctx.shadowOffsetY=8;}
+    for(const [pc,dx] of passes){ctx.fillStyle=pc||col;ctx.fillText(tk.s,tk.x+dx,tk.y)}
+    if(!isK||stA<=.5)ctx.restore();
+    ctx.letterSpacing='0px';ctx.restore();
+  }
+  if(radio){ctx.fillStyle='rgba(0,0,0,.12)';for(let y=200;y<640;y+=8)ctx.fillRect(0,y+((t*120)%8),WD,3)}
+  ctx.restore();
+}
+function drawSub(t,gi){
+  const [a,b]=G[gi];const ws=[];for(let i=a;i<b;i++)ws.push(W[i][1]);
+  ctx.font='700 46px Inter';const sp=ctx.measureText(' ').width;const widths=ws.map(w=>ctx.measureText(w).width);
+  const tw=widths.reduce((s,x)=>s+x,0)+sp*(ws.length-1);const h=96,cy=1745;
+  ctx.save();ctx.shadowColor='rgba(0,0,0,.2)';ctx.shadowBlur=30;ctx.shadowOffsetY=10;rr(540-tw/2-40,cy-h/2,tw+80,h,h/2);ctx.fillStyle='#fff';ctx.fill();ctx.restore();
+  let x=540-tw/2;ws.forEach((w,k)=>{const said=t>=T(a+k)-.02;txt(w,x,cy+16,{size:46,w:700,c:said?'#2d5bff':'#a3a8b8'});x+=widths[k]+sp});
+}
+// ---------- frame ----------
+const BOOMS=TL.sfx.filter(s=>s[1]==='boom').map(s=>s[0]);
+window.renderFrame=function(t){
+  ctx.setTransform(1,0,0,1,0,0);ctx.globalAlpha=1;ctx.clearRect(0,0,WD,HT);
+  let z=1,sx=0,sy=0;for(const b of BOOMS){const d=t-b;if(d>=0&&d<.35){const k=Math.exp(-d*10);z+=.05*k;sx+=(hash(t*40)-.5)*30*k;sy+=(hash(t*40+3)-.5)*30*k}}
+  ctx.setTransform(z,0,0,z,WD/2*(1-z)+sx,HT/2*(1-z)+sy);
+  const gi=curGroup(t), si=curScene(t);const pal=gPal[gi];
+  const sc=SC[si];const inTrans=si>0&&t<sc.t0+.25;
+  const gs=gStart(gi);const bgP=prog(t,gs,.28);
+  const prevPal=gi>0?gPal[gi-1]:pal;
+  if(inTrans){
+    // previous scene full, then new bg circle
+    const fg=G.findIndex(g=>g[0]===sc.w0);drawBg(gPal[fg-1],t);sceneDraw(si-1,t);
+    const r=eOut(prog(t,sc.t0,.25))*2300;circleClip(540,410,r,()=>drawBg(gPal[fg],t));
+  } else {
+    if(bgP<1&&gi>0&&gScene[gi-1]===gScene[gi]){drawBg(prevPal,t);circleClip(540,410,eOut(bgP)*2300,()=>drawBg(pal,t))}else drawBg(pal,t);
+    sceneDraw(si,t);
+  }
+  drawHeadline(t,gi,pal);
+  drawSub(t,gi);
+};
+window.READY=true;
+</script></body></html>
+
