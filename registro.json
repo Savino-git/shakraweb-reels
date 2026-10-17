@@ -42,5 +42,38 @@
     "parola_cta": "3D",
     "file": "v/2026-10-16-s3-configuratore-3d-cucine.mp4",
     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7465102&openWithPostUuid=6813738924544051130"
+  },
+  {
+    "data": "2026-10-17",
+    "slot": "12:30",
+    "servizio": "e-commerce",
+    "stile": "mito da sfatare",
+    "settore": "negozi (abbigliamento)",
+    "gancio": "Il negozio online è roba da Amazon? Falso. E te lo dimostro.",
+    "parola_cta": "NEGOZIO",
+    "file": "v/2026-10-17-s1-ecommerce-negozi.mp4",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7465102&openWithPostUuid=-8923869979502948494"
+  },
+  {
+    "data": "2026-10-17",
+    "slot": "18:30",
+    "servizio": "gestionale su misura",
+    "stile": "mini-storia di un cliente tipo",
+    "settore": "officine",
+    "gancio": "Marco ha un'officina. Ogni mattina cerca il foglietto con la targa.",
+    "parola_cta": "OFFICINA",
+    "file": "v/2026-10-17-s2-gestionale-officine.mp4",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7465102&openWithPostUuid=5168357499688928280"
+  },
+  {
+    "data": "2026-10-17",
+    "slot": "21:00",
+    "servizio": "SEO/farsi trovare su Google",
+    "stile": "domanda diretta",
+    "settore": "palestre",
+    "gancio": "Domanda secca: se adesso qualcuno scrive \"palestra vicino a me\", trova te, o quello dall'altra parte della strada?",
+    "parola_cta": "GOOGLE",
+    "file": "v/2026-10-17-s3-seo-palestre.mp4",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7465102&openWithPostUuid=8172301345036783586"
   }
 ]
