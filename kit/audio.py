@@ -40,12 +40,13 @@ for e in TL['vfx']:
         a,b,st=e[1],e[2],e[3]; replace(a,b,pitch(v[int(a*SR):int(b*SR)],st)*(1.15 if k=='deep' else 1))
         if k=='deep':  # epic layer reverb
             i=int(a*SR); y=sg.fftconvolve(v[i:int(b*SR)],IR)[:SR*2]; fx[i:i+len(y)]+=y*0.8
-    elif k=='echo':
+    elif k in ('echo','swell'): continue  # vietati dal titolare: eco/riverbero sulla voce non gli piace
+    elif k=='echo_OLD':
         a,b=e[1],e[2]; i=int(a*SR); seg=fade(v[i:int(b*SR)])
         for d,g in ((0.14,.45),(0.28,.3),(0.42,.18),(0.56,.1)):
             j=i+int(d*SR); fx[j:j+len(seg)]+=seg*g
         y=sg.fftconvolve(seg,IR)[:SR*2]; fx[i:i+len(y)]+=y*0.6
-    elif k=='swell':
+    elif k=='swell_OLD':
         t=e[1]; i=int(t*SR); seg=v[i:i+int(.45*SR)]
         y=sg.fftconvolve(seg,IR)[:int(1.2*SR)][::-1]; y=y/np.abs(y).max()*0.35
         s=i-len(y); 
