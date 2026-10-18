@@ -122,7 +122,7 @@ for t,k,db in TL['sfx']:
     sfx[i:i+len(y)]+=y[:len(sfx)-i]
 sfx=sfx[:N]
 # ---------- music 124bpm melodic ----------
-bpm=TL['bpm']; beat=60/bpm; mus=np.zeros(N+SR)
+bpm=TL['bpm']; beat=60/bpm; mus=np.zeros(N+3*SR)
 def note(f,n,tau,kind='pluck'):
     t=np.arange(n)/SR
     if kind=='pluck':
