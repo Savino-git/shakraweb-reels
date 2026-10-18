@@ -1,7 +1,7 @@
 import sys,json; sys.path.insert(0,'..'); from tlcommon import build
 W=json.load(open('words.json')); T=lambda i:W[i][0]; E=lambda i:W[i][2]
 dur=float(sys.argv[1])
-VFX=[('high',T(15)-.01,E(17)+.02,5),('mute',E(37),T(38)),('radio',T(26)-.02,E(30)+.03),('swell',T(75)),('echo',T(75),E(75)),('mute',E(84),T(85)),('swell',T(85)),('echo',T(85),E(85))]
+VFX=[('high',T(15)-.01,E(17)+.02,5),('mute',E(37),T(38)),('radio',T(26)-.02,E(30)+.03),('mute',E(84),T(85))]
 X=[[T(0),'alert',-18],[T(10),'thump',-14],[T(15),'scratch',-17],[T(26),'stamp',-12],[T(29),'stamp',-11],
    [T(38),'whoosh',-15],[T(41),'stamp',-12],[T(44),'pop2',-15],[T(48),'send',-15],[T(48)+.2,'blip',-15],[T(51),'blip',-15],[T(51)+.2,'ding',-15],
    [T(57),'shutter',-16],[T(63),'bell',-12],[T(65),'blip',-16],[T(66),'blip',-16],[T(69),'pop2',-16],[T(70),'pop2',-16],
