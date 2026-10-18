@@ -3,3 +3,4 @@ Motore generico (usato il 2026-10-16 per 3 reel). index.html = engine_a.html + s
 - Headline: stickers disegnati prima del testo (niente parole coperte).
 - Whisper: lanciare run.mjs UNA trascrizione alla volta (in parallelo va in OOM con 7 GB). La macchina ha 2 core: renderizzare un video alla volta in 2 metà.
 - check.py <dir>: durate, loudness, foglio provini sulle parole chiave (+0,05 s).
+- 2026-10-18: phone.py (refine(W): tempi del numero WhatsApp dall'energia audio, anche quando whisper lo unisce in un token) e runw.mjs (trascrizione a finestre se whisper salta un tratto: node runw.mjs '[[s,e,keep0,keep1],...]'). Esempi in esempi/2026-10-18/. Nota: nel concatenare i render, non usare `pgrep -f "rend.sh mX"` dentro bash -c (matcha sé stesso).
