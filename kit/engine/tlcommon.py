@@ -6,7 +6,7 @@ def build(scenes,KW,VFX,extra,cta_word,dur,logo_i=None,sfx_vol=None):
     starts={i for _,i in scenes}
     cuts=[0]; n=0
     for i in range(len(W)):
-        if i>0 and (i in starts or n>=4 or W[i-1][1].endswith(PUN)):
+        if i>0 and (i in starts or n>=4 or W[i-1][1].endswith(PUN) or W[i-1][1].endswith('|')):
             cuts.append(i); n=0
         n+=1
     c=[i for i,w in enumerate(W) if w[1]=='Scrivi'][-1]
@@ -14,6 +14,7 @@ def build(scenes,KW,VFX,extra,cta_word,dur,logo_i=None,sfx_vol=None):
     cuts=[x for x in cuts if x!=c+5]+[c+4]
     cuts=sorted(set(cuts))+[len(W)]
     groups=[[cuts[i],cuts[i+1]] for i in range(len(cuts)-1)]
+    for w in W: w[1]=w[1].rstrip('|')
     S=[]
     for k,(nm,i) in enumerate(scenes):
         end=scenes[k+1][1] if k+1<len(scenes) else len(W)

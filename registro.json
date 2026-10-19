@@ -111,5 +111,38 @@
     "file": "v/2026-10-18-s3-automazioni-studi-professionali-v2.mp4",
     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7465102&openWithPostUuid=7438095948657281494",
     "nota": "sostituito con versione senza effetto eco"
+  },
+  {
+    "data": "2026-10-19",
+    "slot": "12:30",
+    "servizio": "siti web",
+    "stile": "provocatorio",
+    "settore": "hotel/B&B",
+    "gancio": "Caro titolare di bed and breakfast, hai duecento recensioni a cinque stelle, e il tuo sito è una pagina Facebook del 2015.",
+    "parola_cta": "SITO",
+    "file": "v/2026-10-19-s1-siti-web-bnb.mp4",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7465102&openWithPostUuid=7511052143717207111"
+  },
+  {
+    "data": "2026-10-19",
+    "slot": "18:30",
+    "servizio": "app",
+    "stile": "mini-storia di un cliente tipo",
+    "settore": "pasticcerie/bar",
+    "gancio": "Giulia ha una pasticceria. Ogni mattina scrive su Instagram: oggi cornetti al pistacchio. Lo vedono in trenta.",
+    "parola_cta": "APP",
+    "file": "v/2026-10-19-s2-app-pasticceria.mp4",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7465102&openWithPostUuid=-831248690011354056"
+  },
+  {
+    "data": "2026-10-19",
+    "slot": "21:00",
+    "servizio": "personalizzatori prodotto",
+    "stile": "calcoli concreti",
+    "settore": "aziende di produzione (magliette e gadget)",
+    "gancio": "Facciamo due conti, azienda di magliette e gadget personalizzati: venti richieste di preventivo al giorno, mezz'ora ciascuna.",
+    "parola_cta": "LOGO",
+    "file": "v/2026-10-19-s3-personalizzatore-gadget.mp4",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7465102&openWithPostUuid=-1274103109220547587"
   }
 ]
