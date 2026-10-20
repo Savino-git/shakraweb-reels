@@ -144,5 +144,38 @@
     "parola_cta": "LOGO",
     "file": "v/2026-10-19-s3-personalizzatore-gadget.mp4",
     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7465102&openWithPostUuid=-1274103109220547587"
+  },
+  {
+    "data": "2026-10-20",
+    "slot": "12:30",
+    "servizio": "landing page per campagne",
+    "stile": "prima/dopo",
+    "settore": "studi dentistici",
+    "gancio": "Caro dentista, paghi la pubblicità, e poi mandi tutti sulla home page?",
+    "parola_cta": "PAGINA",
+    "file": "v/2026-10-20-s1-landing-page-dentisti.mp4",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7465102&openWithPostUuid=7912278041320180899"
+  },
+  {
+    "data": "2026-10-20",
+    "slot": "18:30",
+    "servizio": "domotica (app Shakra Domotic)",
+    "stile": "mito da sfatare",
+    "settore": "negozi",
+    "gancio": "La domotica è roba da ville con piscina? Sbagliato. E intanto il tuo negozio ne paga il conto.",
+    "parola_cta": "LUCE",
+    "file": "v/2026-10-20-s2-domotica-negozi.mp4",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7465102&openWithPostUuid=-856986307606330301"
+  },
+  {
+    "data": "2026-10-20",
+    "slot": "21:00",
+    "servizio": "chatbot",
+    "stile": "3 segnali che…",
+    "settore": "concessionarie auto",
+    "gancio": "Tre segnali che la tua concessionaria perde clienti di notte.",
+    "parola_cta": "CHAT",
+    "file": "v/2026-10-20-s3-chatbot-concessionarie.mp4",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7465102&openWithPostUuid=2683465951820989760"
   }
 ]
