@@ -177,5 +177,41 @@
     "parola_cta": "CHAT",
     "file": "v/2026-10-20-s3-chatbot-concessionarie.mp4",
     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7465102&openWithPostUuid=2683465951820989760"
+  },
+  {
+    "data": "2026-10-21",
+    "slot": "12:30",
+    "servizio": "prenotazioni online",
+    "stile": "provocatorio",
+    "settore": "fisioterapisti",
+    "gancio": "Caro fisioterapista, il paziente ha mal di schiena alle undici di sera, e tu gli rispondi: chiami domani, dalle nove alle dodici.",
+    "parola_cta": "PRENOTA",
+    "file": "v/2026-10-21-s1-prenotazioni-fisioterapisti.mp4",
+    "plannerUrl": null,
+    "nota": "NON programmato: la chiamata a Metricool createScheduledPost è stata bloccata dal controllo permessi della sessione automatica; video pronto nel repo"
+  },
+  {
+    "data": "2026-10-21",
+    "slot": "18:30",
+    "servizio": "aumento conversioni",
+    "stile": "calcoli concreti",
+    "settore": "cantine/vini (shop online)",
+    "gancio": "Facciamo due conti, cantina: mille visite al mese sul tuo negozio online, e compra una persona su cento.",
+    "parola_cta": "VENDITE",
+    "file": "v/2026-10-21-s2-conversioni-cantine.mp4",
+    "plannerUrl": null,
+    "nota": "NON programmato: la chiamata a Metricool createScheduledPost è stata bloccata dal controllo permessi della sessione automatica; video pronto nel repo"
+  },
+  {
+    "data": "2026-10-21",
+    "slot": "21:00",
+    "servizio": "software su misura",
+    "stile": "mini-storia di un cliente tipo",
+    "settore": "imprese edili",
+    "gancio": "Luca ha un'impresa edile. Ogni sera, alle dieci, è ancora in ufficio a copiare ore e materiali dentro Excel.",
+    "parola_cta": "CANTIERE",
+    "file": "v/2026-10-21-s3-software-su-misura-edilizia.mp4",
+    "plannerUrl": null,
+    "nota": "NON programmato: la chiamata a Metricool createScheduledPost è stata bloccata dal controllo permessi della sessione automatica; video pronto nel repo"
   }
 ]
