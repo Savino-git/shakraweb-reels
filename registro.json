@@ -213,5 +213,38 @@
     "file": "v/2026-10-21-s3-software-su-misura-edilizia.mp4",
     "plannerUrl": null,
     "nota": "NON programmato: la chiamata a Metricool createScheduledPost è stata bloccata dal controllo permessi della sessione automatica; video pronto nel repo"
+  },
+  {
+    "data": "2026-10-22",
+    "slot": "12:30",
+    "servizio": "gestionale con AI",
+    "stile": "domanda diretta",
+    "settore": "aziende di distribuzione/ingrosso (magazzino)",
+    "gancio": "Domanda secca, titolare: quanta merce hai ferma in magazzino, adesso?",
+    "parola_cta": "DATI",
+    "file": "v/2026-10-22-s1-gestionale-ai-ingrosso.mp4",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7465102&openWithPostUuid=-5812226022128136295"
+  },
+  {
+    "data": "2026-10-22",
+    "slot": "18:30",
+    "servizio": "configuratori 3D",
+    "stile": "mito da sfatare",
+    "settore": "serramenti/infissi",
+    "gancio": "Il configuratore 3D serve solo alle grandi marche di auto? Falso.",
+    "parola_cta": "FINESTRA",
+    "file": "v/2026-10-22-s2-configuratore-3d-infissi.mp4",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7465102&openWithPostUuid=4950790800315535165"
+  },
+  {
+    "data": "2026-10-22",
+    "slot": "21:00",
+    "servizio": "assistente AI su WhatsApp",
+    "stile": "provocatorio",
+    "settore": "palestre",
+    "gancio": "Caro titolare di palestra, alle undici di sera qualcuno ti scrive su WhatsApp: quanto costa l'abbonamento? E tu rispondi il giorno dopo.",
+    "parola_cta": "PALESTRA",
+    "file": "v/2026-10-22-s3-assistente-whatsapp-palestre.mp4",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7465102&openWithPostUuid=-1898693727616416624"
   }
 ]
