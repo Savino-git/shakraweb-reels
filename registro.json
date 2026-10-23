@@ -246,5 +246,38 @@
     "parola_cta": "PALESTRA",
     "file": "v/2026-10-22-s3-assistente-whatsapp-palestre.mp4",
     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7465102&openWithPostUuid=-1898693727616416624"
+  },
+  {
+    "data": "2026-10-23",
+    "slot": "12:30",
+    "servizio": "SEO/farsi trovare su Google",
+    "stile": "prima/dopo",
+    "settore": "idraulici (artigiani)",
+    "gancio": "Prima: si rompe un tubo alle otto di sera, il cliente cerca \"idraulico vicino a me\", e trova tre nomi. Nessuno sei tu.",
+    "parola_cta": "TROVAMI",
+    "file": "v/2026-10-23-s1-seo-idraulici.mp4",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7465102&openWithPostUuid=-5078421658581971233"
+  },
+  {
+    "data": "2026-10-23",
+    "slot": "18:30",
+    "servizio": "e-commerce",
+    "stile": "3 segnali che…",
+    "settore": "gastronomie/salumerie",
+    "gancio": "Tre segnali che la tua gastronomia ha bisogno di un negozio online.",
+    "parola_cta": "SPESA",
+    "file": "v/2026-10-23-s2-ecommerce-gastronomie.mp4",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7465102&openWithPostUuid=5667847909910463022"
+  },
+  {
+    "data": "2026-10-23",
+    "slot": "21:00",
+    "servizio": "gestionale su misura",
+    "stile": "calcoli concreti",
+    "settore": "ristoranti (dispensa/sprechi)",
+    "gancio": "Facciamo due conti, ristoratore: ogni settimana butti via almeno cento euro di cibo scaduto, perché nessuno sa cosa c'è davvero in dispensa.",
+    "parola_cta": "DISPENSA",
+    "file": "v/2026-10-23-s3-gestionale-ristoranti.mp4",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7465102&openWithPostUuid=-7071014423950374834"
   }
 ]
