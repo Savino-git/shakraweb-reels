@@ -279,5 +279,40 @@
     "parola_cta": "DISPENSA",
     "file": "v/2026-10-23-s3-gestionale-ristoranti.mp4",
     "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7465102&openWithPostUuid=-7071014423950374834"
+  },
+  {
+    "data": "2026-10-24",
+    "slot": "12:30",
+    "servizio": "automazioni",
+    "stile": "provocatorio",
+    "settore": "aziende di produzione",
+    "gancio": "Caro imprenditore, sei il dipendente più pagato della tua azienda. E passi le serate a fare copia e incolla.",
+    "parola_cta": "TURBO",
+    "file": "v/2026-10-24-s1-automazioni-produzione.mp4",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7465102&openWithPostUuid=-7750288421140280971"
+  },
+  {
+    "data": "2026-10-24",
+    "slot": "18:30",
+    "servizio": "app",
+    "stile": "calcoli concreti",
+    "settore": "pizzerie (delivery)",
+    "gancio": "Facciamo due conti, pizzaiolo: le app di consegna ti prendono il trenta per cento.",
+    "parola_cta": "PIZZA",
+    "file": "v/2026-10-24-s2-app-pizzerie.mp4",
+    "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=7465102&openWithPostUuid=2495869461065777627",
+    "nota": "testo accorciato a ~75 parole (21 s) per far bastare i crediti ElevenLabs residui"
+  },
+  {
+    "data": "2026-10-24",
+    "slot": "21:00",
+    "servizio": "CRM",
+    "stile": "mini-storia di un cliente tipo",
+    "settore": "hotel",
+    "gancio": "Sara ha un piccolo hotel sul lago. Ogni estate, tremila ospiti. Ogni inverno, camere vuote.",
+    "parola_cta": "RITORNO",
+    "file": null,
+    "plannerUrl": null,
+    "nota": "NON prodotto: crediti ElevenLabs esauriti (quota 30153, residui ~70). Testo pronto, da riusare quando si ricaricano i crediti"
   }
 ]
