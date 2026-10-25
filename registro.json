@@ -314,5 +314,44 @@
     "file": null,
     "plannerUrl": null,
     "nota": "NON prodotto: crediti ElevenLabs esauriti (quota 30153, residui ~70). Testo pronto, da riusare quando si ricaricano i crediti"
+  },
+  {
+    "data": "2026-10-25",
+    "slot": "12:30",
+    "servizio": "siti web",
+    "stile": "mito da sfatare",
+    "settore": "artigiani (elettricisti)",
+    "gancio": "Elettricista, pensi che il sito non ti serva, perché tanto lavori col passaparola? Falso.",
+    "parola_cta": "SITO",
+    "file": null,
+    "plannerUrl": null,
+    "testo": "[excited] Elettricista, pensi che il sito non ti serva, perché tanto lavori col passaparola? Falso. Ed è il mito che ti costa di più. Oggi chi ti consiglia a un amico, prima di chiamarti, ti cerca su Google. Se trova solo un numero e due foto sfocate, chiama il prossimo. Con un sito fatto bene, il cliente vede i tuoi lavori, legge le recensioni, e ti chiede il preventivo da solo, anche di domenica. E da noi non finisce lì: facciamo siti, gestionali, app, intelligenza artificiale. Qualsiasi cosa. Chi lavora di notte non si lamenta. Si chiama software. Scrivi SITO su WhatsApp al tre tre uno, cinque otto otto, sette sei otto cinque.",
+    "nota": "NON prodotto: crediti ElevenLabs esauriti (quota 30153, residui 71; servono ~600-690 per voce). Testo pronto in campo 'testo', da riusare quando si ricaricano i crediti"
+  },
+  {
+    "data": "2026-10-25",
+    "slot": "18:30",
+    "servizio": "prenotazioni online",
+    "stile": "prima/dopo",
+    "settore": "barbieri",
+    "gancio": "Prima: sei a metà taglio, il telefono vibra, e col rasoio in mano rispondi: richiamami tra dieci minuti. Non richiama più.",
+    "parola_cta": "AGENDA",
+    "file": null,
+    "plannerUrl": null,
+    "testo": "[excited] Prima: sei a metà taglio, il telefono vibra, e col rasoio in mano rispondi: richiamami tra dieci minuti. Non richiama più. Dopo: il cliente prenota da solo, dal telefono, anche alle due di notte. Sceglie il barbiere, l'orario, il servizio. Il giorno prima gli arriva il promemoria, e se disdice, il posto si libera in automatico per un altro. Tu tagli, e l'agenda si riempie da sola. Niente telefonate, niente buchi, niente appuntamenti dimenticati. Shakra Web te lo costruisce su misura, col tuo nome sopra. Scrivi AGENDA su WhatsApp al tre tre uno, cinque otto otto, sette sei otto cinque.",
+    "nota": "NON prodotto: crediti ElevenLabs esauriti (quota 30153, residui 71; servono ~600-690 per voce). Testo pronto in campo 'testo', da riusare quando si ricaricano i crediti"
+  },
+  {
+    "data": "2026-10-25",
+    "slot": "21:00",
+    "servizio": "programmi e intelligenza artificiale a 360 gradi",
+    "stile": "provocatorio",
+    "settore": "agenzie immobiliari",
+    "gancio": "Caro agente immobiliare, usi l'intelligenza artificiale solo per farti scrivere gli annunci? È come avere una fuoriserie, e usarla per andare a prendere il pane.",
+    "parola_cta": "CERVELLO",
+    "file": null,
+    "plannerUrl": null,
+    "testo": "[excited] Caro agente immobiliare, usi l'intelligenza artificiale solo per farti scrivere gli annunci? È come avere una fuoriserie, e usarla per andare a prendere il pane. L'intelligenza artificiale può rispondere ai clienti a qualsiasi ora, capire chi vuole comprare davvero, fissare le visite in agenda, e ricordarti chi richiamare oggi. Tu intanto chiudi i contratti, invece di rincorrere i curiosi. Noi la colleghiamo a tutto: sito, gestionale, WhatsApp, email. Intelligenza artificiale a trecentosessanta gradi, costruita per la tua agenzia. Chi lavora di notte non si lamenta. Si chiama software. Scrivi CERVELLO su WhatsApp al tre tre uno, cinque otto otto, sette sei otto cinque.",
+    "nota": "NON prodotto: crediti ElevenLabs esauriti (quota 30153, residui 71; servono ~600-690 per voce). Testo pronto in campo 'testo', da riusare quando si ricaricano i crediti"
   }
 ]
