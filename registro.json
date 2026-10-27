@@ -392,5 +392,41 @@
   "file": null,
   "plannerUrl": null,
   "nota": "NON prodotto: tentata voce con testo del 25/10 ma ElevenLabs ancora senza crediti (71 residui su 30153, servono ~600-690 per voce; nessun credito addebitato). Inoltre Metricool ha raggiunto il limite di post del piano: non programmato. Testo nel registro del 2026-10-25"
+ },
+ {
+  "data": "2026-10-27",
+  "slot": "12:30",
+  "servizio": "siti web",
+  "stile": "mito da sfatare",
+  "settore": "artigiani (elettricisti)",
+  "gancio": "Elettricista, pensi che il sito non ti serva, perché tanto lavori col passaparola? Falso.",
+  "parola_cta": "SITO",
+  "file": null,
+  "plannerUrl": null,
+  "nota": "NON prodotto: crediti ElevenLabs ancora esauriti il 27/10 (71 residui su 30153, servono ~600-690 per voce; generazioni fallite senza addebito). Non programmato. Testo nel registro del 2026-10-25"
+ },
+ {
+  "data": "2026-10-27",
+  "slot": "18:30",
+  "servizio": "prenotazioni online",
+  "stile": "prima/dopo",
+  "settore": "barbieri",
+  "gancio": "Prima: sei a metà taglio, il telefono vibra, e col rasoio in mano rispondi: richiamami tra dieci minuti. Non richiama più.",
+  "parola_cta": "AGENDA",
+  "file": null,
+  "plannerUrl": null,
+  "nota": "NON prodotto: crediti ElevenLabs ancora esauriti il 27/10 (71 residui su 30153, servono ~600-690 per voce; generazioni fallite senza addebito). Non programmato. Testo nel registro del 2026-10-25"
+ },
+ {
+  "data": "2026-10-27",
+  "slot": "21:00",
+  "servizio": "programmi e intelligenza artificiale a 360 gradi",
+  "stile": "provocatorio",
+  "settore": "agenzie immobiliari",
+  "gancio": "Caro agente immobiliare, usi l'intelligenza artificiale solo per farti scrivere gli annunci? È come avere una fuoriserie, e usarla per andare a prendere il pane.",
+  "parola_cta": "CERVELLO",
+  "file": null,
+  "plannerUrl": null,
+  "nota": "NON prodotto: crediti ElevenLabs ancora esauriti il 27/10 (71 residui su 30153, servono ~600-690 per voce; generazioni fallite senza addebito). Non programmato. Testo nel registro del 2026-10-25"
  }
 ]
