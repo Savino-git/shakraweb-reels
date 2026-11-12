@@ -11,7 +11,7 @@ Il titolare (Mr Sawa) non deve fare niente. Se qualcosa va storto, programma com
   `https://raw.githubusercontent.com/Savino-git/shakraweb-reels/main/v/<file>.mp4` (Metricool lo copia sui suoi server: funziona, testato).
 - WhatsApp per le CTA: **331 588 7685** (nel testo per la voce scriverlo in lettere: "tre tre uno, cinque otto otto, sette sei otto cinque").
 - Logo: `kit/web/logo.png` (ritagliato con alpha, con l'icona S PIENA NERA all'interno come l'originale: corretto il 16/10, non usare versioni con la S trasparente). Mai aggiungere ombre: solo il suo alone celeste originale, mai tagliato di netto.
-- Domini già consentiti nella rete: storage.googleapis.com, api.elevenlabs.io, github (git). Higgsfield NON va usato.
+- Domini già consentiti nella rete: storage.googleapis.com, api.elevenlabs.io, github (git). Dal 12/11 l'audio ElevenLabs arriva da **elevenlabsusercontent.com**: deve essere consentito anche questo. Se il registro ha voci con `voce_elevenlabs` non ancora usate, riusale (creative_get_flow_run_status) invece di rigenerare. Higgsfield NON va usato.
 
 ## 1. Scegliere i 3 argomenti (varietà obbligatoria)
 Leggi `registro.json` (storico di tutti i video). Per oggi scegli 3 video con:
