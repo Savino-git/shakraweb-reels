@@ -1019,5 +1019,56 @@
    "generation_id": "Ash36k4OIU4QzzrtgbdC"
   },
   "nota": "Voce GIÀ GENERATA il 12/11 (crediti ElevenLabs tornati) ma NON scaricata: il content_url ora è su elevenlabsusercontent.com, bloccato dal proxy (403). Serve aggiungere elevenlabsusercontent.com ai domini consentiti. Prossimo run: NON rigenerare, chiama creative_get_flow_run_status con flow_id+session_id per un content_url fresco e scaricalo. Testo nel registro del 2026-10-25"
+ },
+ {
+  "data": "2026-11-13",
+  "slot": "12:30",
+  "servizio": "siti web",
+  "stile": "mito da sfatare",
+  "settore": "artigiani (elettricisti)",
+  "gancio": "Elettricista, pensi che il sito non ti serva, perché tanto lavori col passaparola? Falso.",
+  "parola_cta": "SITO",
+  "file": null,
+  "plannerUrl": null,
+  "voce_elevenlabs": {
+   "flow_id": "tr3E0C2nDNn5IWjA9Qmf",
+   "session_id": "YDP8dFsEFhlpYTuIrXHA",
+   "generation_id": "hkQ0OZNwEZARqf10FnvH"
+  },
+  "nota": "NON prodotto il 13/11: voce già generata il 12/11 ma ancora NON scaricabile, elevenlabsusercontent.com resta bloccato dal proxy (403 su CONNECT, verificato con content_url fresco valido fino al 14/11). Non rigenerata per non sprecare crediti. Serve aggiungere elevenlabsusercontent.com ai domini consentiti della rete. Prossimo run: creative_get_flow_run_status con flow_id+session_id e scarica. Testo nel registro del 2026-10-25"
+ },
+ {
+  "data": "2026-11-13",
+  "slot": "18:30",
+  "servizio": "prenotazioni online",
+  "stile": "prima/dopo",
+  "settore": "barbieri",
+  "gancio": "Prima: sei a metà taglio, il telefono vibra, e col rasoio in mano rispondi: richiamami tra dieci minuti. Non richiama più.",
+  "parola_cta": "AGENDA",
+  "file": null,
+  "plannerUrl": null,
+  "voce_elevenlabs": {
+   "flow_id": "tr3E0C2nDNn5IWjA9Qmf",
+   "session_id": "Y2be0mrTorOI0XUYqcvS",
+   "generation_id": "Q6UAaZp8NKO2kSLvVQx7"
+  },
+  "nota": "NON prodotto il 13/11: voce già generata il 12/11 ma ancora NON scaricabile, elevenlabsusercontent.com resta bloccato dal proxy (403 su CONNECT, verificato con content_url fresco valido fino al 14/11). Non rigenerata per non sprecare crediti. Serve aggiungere elevenlabsusercontent.com ai domini consentiti della rete. Prossimo run: creative_get_flow_run_status con flow_id+session_id e scarica. Testo nel registro del 2026-10-25"
+ },
+ {
+  "data": "2026-11-13",
+  "slot": "21:00",
+  "servizio": "programmi e intelligenza artificiale a 360 gradi",
+  "stile": "provocatorio",
+  "settore": "agenzie immobiliari",
+  "gancio": "Caro agente immobiliare, usi l'intelligenza artificiale solo per farti scrivere gli annunci? È come avere una fuoriserie, e usarla per andare a prendere il pane.",
+  "parola_cta": "CERVELLO",
+  "file": null,
+  "plannerUrl": null,
+  "voce_elevenlabs": {
+   "flow_id": "tr3E0C2nDNn5IWjA9Qmf",
+   "session_id": "wgVPTmS26PFWe2Ud9Euk",
+   "generation_id": "Ash36k4OIU4QzzrtgbdC"
+  },
+  "nota": "NON prodotto il 13/11: voce già generata il 12/11 ma ancora NON scaricabile, elevenlabsusercontent.com resta bloccato dal proxy (403 su CONNECT, verificato con content_url fresco valido fino al 14/11). Non rigenerata per non sprecare crediti. Serve aggiungere elevenlabsusercontent.com ai domini consentiti della rete. Prossimo run: creative_get_flow_run_status con flow_id+session_id e scarica. Testo nel registro del 2026-10-25"
  }
 ]
